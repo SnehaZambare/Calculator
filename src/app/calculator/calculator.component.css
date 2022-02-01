@@ -72,8 +72,24 @@ equal-sign {
 }
    
 p{
-    font-size: xxx-large;
+    font-size: 5vw;
     padding-top: 5%;
     display: flex;
     justify-content: center;
+}
+
+.author{
+    font-size: 1vw;
+    padding-top: 30%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.bg{
+    background-color: cyan;
 }
